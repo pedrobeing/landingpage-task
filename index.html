@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="top">
+        <div class="topWrapper">
+            <span class="logo"><img src="./images/topImages/logo.svg" alt="" class="svgLogo"></span>
+
+            <div class="textWrap">
+                <h1>Em breve.</h1>
+                <p>Aguarde! Nosso lançamento está perto.</p>
+                <p>Enquanto isso, venha nos conhecer e aproveite nossas ofertas de pré-lançamento.</p>
+                <div class="network">
+                    <a href="https://www.being.com.br/" target="_blank"><img src="./images/topImages/network/insta.svg" alt="instagram"></a> <a href="https://www.being.com.br/" target="_blank"><img src="./images/topImages/network/face.svg" alt="facebook"></a>
+                </div>
+            </div>
+
+            <div class="contactWrap">
+                <a href="https://www.being.com.br/" target="_blank"><span class="phoneNumber"><img src="./images/topImages/contact/phone.svg" alt="número de telefone"></span></a>
+                <a href="https://www.being.com.br/" target="_blank"><img src="./images/topImages/contact/wpp1.svg" alt="whats-app" class="whatsapp"></a>
+                <a href="https://www.being.com.br/" target="_blank"><img src="./images/topImages/contact/wpp2.svg" alt="whats-app" class="whatsapp"></a>
+            </div>
+
+            <a href="#bottom"><button class="btnGodown">Saiba Mais</button></a>
+        </div>
+    </section>
+
+    <section class="bottom" id="bottom">
+        <div class="bottomWrapper">
+            <div class="contentWrap">
+                <div class="map">
+                    <h2>Veja onde estamos</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.242168521386!2d-38.484937084646674!3d-3.757380044374149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487c96b19833%3A0xb305e9eee2106b50!2sBeing%20Marketing!5e0!3m2!1spt-BR!2sbr!4v1649175233685!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="formWrap">
+                    <h2 class="titleForm">Quero ganhar todos os benefícios exclusivos de lançamento</h2>
+                    <form id="form">
+                        <div class="inputWrap">
+                            <label>Nome*</label><br>
+                            <input type="text" id="name" placeholder="Nome" class="input" required><br>
+                            <span class="error"></span>
+                        </div>
+                        <div class="inputWrap">
+                            <label>E-mail*</label><br>
+                            <input type="email" id="email" placeholder="E-mail" class="input" required><br>
+                            <span class="error"></span>
+                        </div>
+                        <div class="inputWrap">
+                            <label>Whatsapp</label><br>
+                            <input type="number" id="number" placeholder="Whatsapp" class="input" required><br>
+                            <span class="error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btnSubmit">Conheça nossos serviços</button>
+                    </form>
+                </div>
+            </div>
+            <footer> <span class="spanLoc"><img src="./images/bottomImages/location.svg" alt="" class="locSvg"> Rua Dom Sebastião Leme, 1091 - Bairro de Fátima </span><a href="https://www.being.com.br/" target="_blank"><img src="./images/bottomImages/insta.svg" alt="instagram" class="svgFooter"></a> <a href="https://www.being.com.br/" target="_blank"><img src="./images/bottomImages/face.svg" alt="facebook" class="svgFooter2"></footer></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
