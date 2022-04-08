@@ -554,12 +554,3 @@ footer{
         margin-left: 20px;
     }
 }
-
-@media all and (min-width: 1200px) and (max-width: 1560px) {
-
-  .btnGodown{
-    width: 180px;
-    height: 70px;
-    font-size: 16px;
-  }
-}
