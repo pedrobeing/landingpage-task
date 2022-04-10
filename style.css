@@ -289,10 +289,11 @@ footer{
     }
 
     .btnGodown{
-        width: 180px;
-        height: 70px;
-        font-size: 16px;
-        margin-top: 40px;
+        width: 110px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 0;
     }
 
     .contentWrap{
@@ -389,6 +390,14 @@ footer{
 
 @media all and (min-width: 430px) and (max-width: 781px)  {
 
+    .svgLogo{
+        width: 6rem;
+    }
+
+    .topWrapper h1{
+        font-size: 3rem;
+    }
+
     .textWrap{
         gap: 5px;
     }
@@ -399,12 +408,12 @@ footer{
         gap: 20px;
     }
 
-
     .btnGodown{
-        width: 180px;
-        height: 70px;
-        font-size: 16px;
-        margin-top: 40px;
+        width: 110px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 10px;
+        padding: 0;
     }
 
     .contentWrap{
@@ -463,14 +472,6 @@ footer{
     .textWrap p{
         margin-left: 20px;
     }
-    .svgLogo{
-        width: 200px;
-        height: 100px;
-    }
-
-    .topWrapper h1{
-        font-size: 46px;
-    }
 
     .map{
         display: flex;
@@ -492,8 +493,13 @@ footer{
 
 @media all and (min-width: 782px) and (max-width: 1200px) {
 
+    .svgLogo{
+        width: 160px;
+    }
+
     .topWrapper{
-        gap: 70px;
+        gap: 50px;
+        justify-content: center;
     }
 
     .topWrapper h1{
@@ -504,6 +510,7 @@ footer{
         width: 180px;
         height: 70px;
         font-size: 16px;
+        margin-bottom: 60px;
     }
 
     .contentWrap{
@@ -552,5 +559,19 @@ footer{
 
     .textWrap p{
         margin-left: 20px;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1500px) {
+    .btnGodown{
+        margin-bottom: 30px;
+    }
+
+    .topWrapper h1{
+        font-size: 3.4rem;
+    }
+
+    .topWrapper p{
+        font-size: 1rem;
     }
 }
