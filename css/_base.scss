@@ -1,0 +1,64 @@
+$green-color: #1C6030;
+$yellow-color: #D6A426;
+
+@mixin flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn{
+  background-color: $yellow-color;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+@mixin montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+button{
+  @include btn;
+}
+
+input{
+  outline: 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.error-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #e43434;
+  margin-top: 2px;
+  white-space: pre-wrap;
+}
+

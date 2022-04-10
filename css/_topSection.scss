@@ -1,0 +1,82 @@
+.top{
+  height: 100%;
+  background-image: url(/landingpage-task/images/topImages/backgroundImg.svg);
+  background-size: cover;
+  background-position: center center;
+
+  .topWrapper{
+    @include flexCenter;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 20px;
+    height: 100vh;
+    color: #fff;
+    background-color: #217e3dd3;
+
+    .logo{
+      margin-top: 50px;
+    }
+
+    .textWrap{
+      @include flexCenter;
+      flex-direction: column;
+    }
+
+    h1{
+      font-size: 68px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    p{
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .network{
+      @include flexCenter;
+      margin-top: 16px;
+      font-family: 'Open Sans', sans-serif;
+      gap: 33px;
+    }
+
+    .contactWrap{
+      @include flexCenter;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-family: 'Open Sans', sans-serif;
+      max-width: 860px;
+      width: 100%;
+
+      .phoneNumber{
+        @include flexCenter;
+        max-width: 180px;
+        width: 100%;
+        height: 35.4px;
+        border: 1px solid $yellow-color;
+        border-radius: 50px;
+        padding: 14px 40px;
+      }
+
+      .whatsapp{
+        height: 63px;
+      }
+    }
+
+    .btnGodown{
+      height: 80px;
+      max-width: 220px;
+      width: 100%;
+      margin-bottom: 3rem;
+      padding: 0 30px;
+      transition: all 0.275s ease-out;
+
+      &:hover{
+        -webkit-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        transform: scale(1.08);
+      }
+    }
+  }
+}
+
